@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+function App1() {
   return (
     <div className="App">
       <header className="App-header">
@@ -20,6 +20,16 @@ function App() {
       </header>
     </div>
   );
+}
+
+function App(){
+  return (
+    <div>
+      <h1>
+        welcome to render with reactjs
+      </h1>
+    </div>
+  )
 }
 
 export default App;
